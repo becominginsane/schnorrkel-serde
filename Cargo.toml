@@ -1,0 +1,11 @@
+[package]
+name = "pg-2021-03-17-160400"
+version = "0.1.0"
+authors = ["karrq"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+schnorrkel = { version = "0.10.1", features = ["serde", "std"] }
+serde_json = "1.0.64"
